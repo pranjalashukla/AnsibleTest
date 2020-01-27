@@ -6,7 +6,6 @@
    # verbosity: 4
 
 - name: Delete User
-  tags: create
   user:
     name: "{{username}}"
     state: absent
