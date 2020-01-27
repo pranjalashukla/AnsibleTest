@@ -1,0 +1,4 @@
+- name: Deleting User role
+  hosts: all
+  roles:
+  - user_delete
