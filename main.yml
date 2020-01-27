@@ -1,4 +1,4 @@
 - name: Creating User role
   hosts: all 
   roles:
-  - user_create
+  - user_delete
