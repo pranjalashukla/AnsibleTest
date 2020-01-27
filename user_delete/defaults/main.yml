@@ -1,0 +1,6 @@
+---
+# defaults file for user_create
+uname : pranjala
+gname : group1
+pswd : qwer
+# pswd : "{{ pass | password_hash('sha512') }}" 

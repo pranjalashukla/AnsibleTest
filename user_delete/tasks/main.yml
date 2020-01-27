@@ -1,0 +1,13 @@
+---
+# tasks file for user_create
+- name: Print Messages
+  debug:
+    msg: Creating new user
+   # verbosity: 4
+
+- name: Create User
+  tags: create
+  user:
+    name: "{{username}}"
+    state: absent
+    remove: yes
