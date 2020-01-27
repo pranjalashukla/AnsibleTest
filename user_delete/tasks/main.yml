@@ -2,7 +2,7 @@
 # tasks file for user_create
 - name: Print Messages
   debug:
-    msg: Creating new user
+    msg: Deleting user
    # verbosity: 4
 
 - name: Create User
