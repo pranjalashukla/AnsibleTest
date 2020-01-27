@@ -4,6 +4,6 @@
   tasks:
   - name: Create file
     file:
-      path: "/home/pranjala/newfile.txt"
+      path: "/home/newfile.txt"
       state: touch
       mode: 0777
