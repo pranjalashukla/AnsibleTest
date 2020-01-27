@@ -1,4 +1,5 @@
 - name: Deleting User role
   hosts: all
+  become: true
   roles:
   - user_delete
