@@ -1,0 +1,16 @@
+---
+# tasks file for user_create
+- name: Print Messages
+  debug:
+    msg: Creating new user
+   # verbosity: 4
+
+- name: Create User
+  tags: create
+  user:
+    name: "{{username}}"
+    groups: "{{groupname}}"
+    shell: /bin/bash
+    password: "{{passwd}}"
+    home: /home
+    state: present

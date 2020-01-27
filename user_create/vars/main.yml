@@ -1,0 +1,5 @@
+---
+# vars file for user_create
+username : "{{uname}}"
+groupname : "{{gname}}"
+passwd : "{{pswd}}"

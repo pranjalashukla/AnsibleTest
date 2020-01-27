@@ -1,0 +1,4 @@
+- name: Creating User role
+  hosts: all 
+  roles:
+  - user_create
