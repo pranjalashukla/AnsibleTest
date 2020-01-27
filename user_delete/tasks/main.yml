@@ -5,7 +5,7 @@
     msg: Deleting user
    # verbosity: 4
 
-- name: Create User
+- name: Delete User
   tags: create
   user:
     name: "{{username}}"
